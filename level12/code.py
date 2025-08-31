@@ -7,8 +7,8 @@ Na I2C sběrnici připojíme dva moduly:
 1) SHT40 senzor teploty a vlhkosti:
    - VDD k 3V3
    - GND k zemi (GND)
-   - SDA k GP14 (I2C data - modrá)
-   - SCL k GP15 (I2C clock - žlutá)
+   - SDA k GP16 (I2C data - modrá)
+   - SCL k GP17 (I2C clock - žlutá)
 
 2) OLED Display SSD1306 128x64:
  - Připojený  na sběrnici pomocí uŠup
@@ -51,7 +51,7 @@ display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=128, height=64)
 
 print("🌡️📺 SHT40 + OLED DISPLEJ")
 print("Zobrazení teploty a vlhkosti na OLED displeji")
-print("I2C piny: SDA=GP14, SCL=GP15")
+print("I2C piny: SDA=GP16, SCL=GP17")
 print("I2C adresy: SHT40=0x44, SSD1306=0x3C")
 print()
 

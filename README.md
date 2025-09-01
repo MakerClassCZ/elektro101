@@ -55,8 +55,8 @@ MakerClass je progresivní kurz programování, který vás provede od základů
 | Level | Název | Popis | Komponenty |
 |-------|-------|-------|------------|
 | **11** | Teplotní senzory | I2C komunikace | DHT11, DS18B20, SHT40 |
-| **12** | I2C skener | Objevování zařízení | I2C zařízení |
-| **13** | Akcelerometr | 3D pohyb | MPU6500/MPU6050 |
+| **12** | Více na I2C | I2C, Objevování zařízení | SHT40, OLED display |
+| **13** | Akcelerometr | 3D pohyb | MPU6500/MPU6050, OLED display |
 | **14** | NeoPixel matice | Barevné LED displeje | NeoPixel 4x4 |
 | **15** | Kulička na náklonu | Herní fyzika | NeoPixel, MPU6500, bzučák |
 
@@ -66,6 +66,7 @@ MakerClass je progresivní kurz programování, který vás provede od základů
 ```bash
 # Stáhněte CircuitPython firmware z oficiálních stránek
 # https://circuitpython.org/downloads
+# Najděte Raspberry Pico a stáhněte verzi 9.x
 # Nasaďte na Pico (přetažením .uf2 souboru)
 ```
 
@@ -80,7 +81,10 @@ MakerClass je progresivní kurz programování, který vás provede od základů
 - Začněte **Level 1** - blikání LED
 - Postupujte po levelu až k **Level 15**
 - Každý level má vlastní `code.py` soubor
+- Pokud je v levelu více souborů, `code.py` je nejjednodušší řešení a další ukazují efektivnější postupy 
 - Dodržujte zapojení podle komentářů v kódu
+- Po skončení levelu ihned nerozpoujujte, mnoho levelů na sebe v zapojení navazuje
+- Na připojení CIRCUITPY disk můžete nahrát celou složku `code.py`, jsou v ní všechny potřebné moduly pro kurz
 
 ## 🔌 Zapojení obvodů
 
@@ -121,6 +125,7 @@ Tento kurz je dostupný pod licencí **MIT**. Můžete ho volně používat pro 
 - **Raspberry Pi Foundation** za skvělé hardware
 - **Adafruit** za CircuitPython a knihovny
 - **[Pájeníčko](https://pajenicko.cz/)** a **[LaskaKit](https://www.laskakit.cz/)** za pomoc s pořízením hardware a elektronických komponent
+- A samozřejmě mé **[skvělé ženě](https://x.com/xamulka)**, která mě během příprav ohromně podporovala ❤!
 
 ---
 

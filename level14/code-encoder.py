@@ -19,11 +19,10 @@ V tomto příkladu budete moci enkodérem měnit jas a barvy,
 tlačítkem enkodéru přepínat mezi módy ovládání.
 
 NOVÉ KONCEPTY:
-- Rotační enkodér pro analogové ovládání
+- Rotační enkodér pro "analogové" ovládání
 - Dynamická změna jasu
 - HSV barevný prostor (Hue, Saturation, Value)
 - Módy ovládání (jas, barva, vzor)
-- Kombinace digitálního a analogového vstupu
 """
 
 # import knihoven pro práci s hardware
@@ -81,6 +80,9 @@ def hsv_to_rgb(h, s, v):
     h: hue (0-360)
     s: saturation (0-1)
     v: value/brightness (0-1)
+    
+    POZNÁMKA: Pro jednoduchou volbu odstínu (bez kontroly sytosti a jasu)
+    lze také použít vestavěnou knihovnu rainbowio.colorwheel(hue % 256)
     """
     h = h % 360
     c = v * s

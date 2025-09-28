@@ -86,6 +86,13 @@ MakerClass je progresivní kurz programování, který vás provede od základů
 - Po skončení levelu ihned nerozpoujujte, mnoho levelů na sebe v zapojení navazuje
 - Na připojení CIRCUITPY disk můžete nahrát celou složku `code.py`, jsou v ní všechny potřebné moduly pro kurz
 
+### 4. Rozšířené příklady
+Některé levely obsahují rozšířené příklady ve složkách `extra-[název]/`, například:
+- **extra-keypad/**, **extra-async/** - pokročilé techniky programování
+- **extra-rotaryio/**, **extra-melodie/** - vylepšené knihovny a funkce
+- **extra-ds18b20/**, **extra-dht11/**, **extra-sht40/** - různé typy senzorů
+- **extra-demo/**, **extra-interactive/**, **extra-encoder/** - pokročilé projekty
+
 ## 🔌 Zapojení obvodů
 
 Každý level obsahuje detailní popis zapojení v komentářích kódu:

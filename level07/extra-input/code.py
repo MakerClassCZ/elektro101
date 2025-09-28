@@ -12,10 +12,14 @@ Zadejte číslo 0-180 pro nastavení úhlu serva.
 
 # import knihoven pro práci s hardware
 import board        # přístup k pinům a hardware zařízení
-import simpleio     # jednoduché IO operace včetně serva
+import pwmio        # PWM modul pro řízení serva
+from adafruit_motor import servo  # specializovaná knihovna pro servo motory
 
-# vytvoření servo objektu pomocí simpleio knihovny
-my_servo = simpleio.Servo(board.GP5)
+# vytvoření PWM objektu pro servo na GP05
+servo_pwm = pwmio.PWMOut(board.GP5, frequency=50)
+
+# vytvoření servo objektu pomocí adafruit_motor knihovny
+my_servo = servo.Servo(servo_pwm)
 
 # nastavení serva na počáteční pozici (střed)
 my_servo.angle = 90

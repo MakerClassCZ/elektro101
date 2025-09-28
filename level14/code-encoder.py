@@ -37,7 +37,7 @@ import math         # matematické funkce
 NEOPIXEL_PIN = board.GP18
 ENCODER_A = board.GP4
 ENCODER_B = board.GP3
-ENCODER_SW = board.GP02
+ENCODER_SW = board.GP2
 NUM_PIXELS = 16
 
 # vytvoření objektů

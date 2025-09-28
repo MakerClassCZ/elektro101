@@ -1,15 +1,15 @@
 # Level 14 - NeoPixel Matrix 4x4
 
 ## Popis
-Úvod do adresovatelných RGB LED diod uspořádaných v matici. Naučíte se vytvářet různé vzory, animace a efekty.
+Úvod do adresovatelných RGB LED. Naučíte se vytvářet různé vzory, animace a efekty.
 
 ## Zapojení obvodu
 NeoPixel matrix 4x4 připojte:
-- VCC k 3V3 nebo 5V (podle specifikace matice)
+- VCC k 3V3 nebo 5V
 - GND k zemi (GND)
 - DIN (Data Input) k GP18
 
-**POZNÁMKA:** NeoPixel matrix může potřebovat externí napájení při plném jasu. Pro testování a nižší jas by mělo stačit napájení z Pico.
+**POZNÁMKA:** NeoPixel matrix může potřebovat externí napájení při plném jasu. Pro testování a nižší jas by mělo stačit napájení z Pico nebo 5V z USB.
 
 ## Co se naučíte
 - Adresovatelné RGB LED (NeoPixel/WS2812)

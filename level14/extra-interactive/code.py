@@ -76,7 +76,6 @@ def set_pixel(x, y, color):
 
 def show_pattern(pattern_name, color):
     """Zobrazí vzor s danou barvou"""
-    clear_matrix()
     
     if pattern_name == "all":
         # Všechny LED stejnou barvou
@@ -84,6 +83,7 @@ def show_pattern(pattern_name, color):
     
     elif pattern_name == "corners":
         # Pouze rohy
+        clear_matrix()
         set_pixel(0, 0, color)
         set_pixel(3, 0, color)
         set_pixel(0, 3, color)
@@ -91,6 +91,7 @@ def show_pattern(pattern_name, color):
     
     elif pattern_name == "cross":
         # Kříž uprostřed
+        clear_matrix()
         for i in range(4):
             set_pixel(i, 1, color)
             set_pixel(i, 2, color)
@@ -99,6 +100,7 @@ def show_pattern(pattern_name, color):
     
     elif pattern_name == "frame":
         # Rámeček kolem
+        clear_matrix()
         for i in range(4):
             set_pixel(i, 0, color)
             set_pixel(i, 3, color)
@@ -107,12 +109,14 @@ def show_pattern(pattern_name, color):
     
     elif pattern_name == "diagonal":
         # Obě diagonály
+        clear_matrix()
         for i in range(4):
             set_pixel(i, i, color)
             set_pixel(i, 3-i, color)
     
     elif pattern_name == "checkerboard":
         # Šachovnice
+        clear_matrix()
         for x in range(4):
             for y in range(4):
                 if (x + y) % 2 == 0:
@@ -120,6 +124,7 @@ def show_pattern(pattern_name, color):
     
     elif pattern_name == "single":
         # Jedna LED postupně
+        clear_matrix()
         led_index = (int(time.monotonic() * 2)) % NUM_PIXELS
         pixels[led_index] = color
     

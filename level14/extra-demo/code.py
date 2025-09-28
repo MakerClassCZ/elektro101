@@ -74,16 +74,17 @@ def set_pixel(x, y, color):
 
 def show_pattern(pattern_name, color=RED):
     """Zobrazí předefinovaný vzor"""
-    clear_matrix()
     
     if pattern_name == "cross":
         # Kříž
+        clear_matrix()
         for i in range(4):
             set_pixel(i, 1, color)  # horizontální čára
             set_pixel(1, i, color)  # vertikální čára
     
     elif pattern_name == "corners":
         # Rohy
+        clear_matrix()
         set_pixel(0, 0, color)
         set_pixel(3, 0, color)
         set_pixel(0, 3, color)
@@ -91,6 +92,7 @@ def show_pattern(pattern_name, color=RED):
     
     elif pattern_name == "frame":
         # Rámeček
+        clear_matrix()
         for i in range(4):
             set_pixel(i, 0, color)    # horní řada
             set_pixel(i, 3, color)    # dolní řada
@@ -99,11 +101,13 @@ def show_pattern(pattern_name, color=RED):
     
     elif pattern_name == "diagonal":
         # Diagonála
+        clear_matrix()
         for i in range(4):
             set_pixel(i, i, color)
     
     elif pattern_name == "checkerboard":
         # Šachovnice
+        clear_matrix()
         for x in range(4):
             for y in range(4):
                 if (x + y) % 2 == 0:

@@ -7,6 +7,9 @@
 
 MakerClass je progresivní kurz programování, který vás provede od základů až po pokročilé projekty s Raspberry Pi Pico. Každý level staví na předchozích znalostech a postupně vás seznámí s různými senzory, displeji a elektronickými komponentami.
 
+![makerclass](https://github.com/user-attachments/assets/3fba4801-7f79-4d2a-b973-da1be724401e)
+
+
 ## 🎯 Co se naučíte
 
 - **Základy programování** v CircuitPython
@@ -116,10 +119,10 @@ MakerClass je progresivní kurz programování, který vás provede od základů
 - Začněte **Level 1** - blikání LED
 - Postupujte po levelu až k **Level 15**
 - Každý level má vlastní `code.py` soubor
-- Pokud je v levelu více souborů, `code.py` je nejjednodušší řešení a další ukazují efektivnější postupy 
+- V levelu může být i více souborů `code.py` v podsložkách extra-, ten v hlavní složce je nejjednodušší řešení a další ukazují efektivnější postupy 
 - Dodržujte zapojení podle komentářů v kódu
 - Po skončení levelu ihned nerozpoujujte, mnoho levelů na sebe v zapojení navazuje
-- Na připojení CIRCUITPY disk můžete nahrát celou složku `code.py`, jsou v ní všechny potřebné moduly pro kurz
+- Na připojený CIRCUITPY disk můžete nahrát celou složku `lib`, jsou v ní všechny potřebné moduly pro kurz
 
 ### 4. Rozšířené příklady
 Některé levely obsahují rozšířené příklady ve složkách `extra-[název]/`, například:

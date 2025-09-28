@@ -25,10 +25,10 @@ Rozšiřujeme zapojení z Level 4 a nahrazujeme potenciometr enkodérem:
 
 ## Soubory
 - `code.py` - Manuální implementace čtení enkodéru
-- `code-rotaryio.py` - Vylepšená verze s vestavěným modulem `rotaryio`
+- `extra-rotaryio/` - Vylepšená verze s vestavěným modulem `rotaryio`
 
 ## Vylepšení
-**code-rotaryio.py**: Používá `rotaryio.IncrementalEncoder` místo manuálního čtení, což poskytuje:
+**extra-rotaryio/**: Používá `rotaryio.IncrementalEncoder` místo manuálního čtení, což poskytuje:
 - Automatickou detekci směru a počítání kroků
 - Spolehlivější a přesnější než manuální implementace
 - Méně kódu, více funkcí

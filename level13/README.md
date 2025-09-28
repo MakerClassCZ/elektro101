@@ -27,9 +27,9 @@ Na I2C sběrnici připojíme dva moduly:
 
 ## Soubory
 - `code.py` - Zobrazení dat z gyroskopu a akcelerometru na OLED displeji
-- `code-mpu6500.py` - Komunikace se senzorem "napřímo" bez knihovny přímým čtením I2C registrů
+- `extra-mpu6500/` - Komunikace se senzorem "napřímo" bez knihovny přímým čtením I2C registrů
 
 ## Vylepšení
-**code-mpu6500.py**:
+**extra-mpu6500/**:
 - Používá přímé čtení I2C registrů místo knihovny
 - Ukazuje, jak funguje komunikace na nízké úrovni

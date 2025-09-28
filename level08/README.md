@@ -27,10 +27,10 @@ Rozšiřujeme zapojení z Level 6 a nahrazujeme servo bzučákem:
 
 ## Soubory
 - `code.py` - Základní ovládání frekvence enkodérem
-- `code-melodie.py` - Vylepšená verze s přehráváním melodií
+- `extra-melodie/` - Vylepšená verze s přehráváním melodií
 
 ## Vylepšení
-**code-melodie.py**: Používá `simpleio.tone()` pro přehrávání tónů a poskytuje:
+**extra-melodie/**: Používá `simpleio.tone()` pro přehrávání tónů a poskytuje:
 - Předefinované melodie (Twinkle Twinkle, Happy Birthday, atd.)
 - Enkodér pro výběr melodie
 - Tlačítko pro spuštění vybrané melodie

@@ -37,13 +37,12 @@ Různé varianty podle typu senzoru:
 
 ## Soubory
 - `code.py` - Vestavěný senzor RP2040 (Level 11A)
-- `code-ds18b20.py` - DS18B20 senzor s OneWire protokolem (Level 11B)
-- `code-dht11.py` - DHT11/DHT22 senzor s kombinovaným čtením teploty a vlhkosti (Level 11C)
-- `code-sht40.py` - SHT40 senzor s I2C komunikací (Level 11D)
+- `extra-ds18b20/` - DS18B20 senzor s OneWire protokolem (Level 11B)
+- `extra-dht11/` - DHT11/DHT22 senzor s kombinovaným čtením teploty a vlhkosti (Level 11C)
+- `extra-sht40/` - SHT40 senzor s I2C komunikací (Level 11D)
 
 ## Vylepšení
 Každá varianta představuje jiný komunikační protokol:
-1. **Vestavěný**: Přímé čtení bez externí komunikace
-2. **OneWire**: Jednovodičová komunikace s možností připojení více senzorů
-3. **DHT**: Vlastní protokol s kombinovaným čtením teploty a vlhkosti
-4. **I2C**: Standardní dvouvodičová komunikace používaná v mnoha dalších senzorech
+1. **extra-ds18b20/**: OneWire - jednovodičová komunikace s možností připojení více senzorů
+2. **extra-dht11/**: DHT - vlastní protokol s kombinovaným čtením teploty a vlhkosti
+3. **extra-sht40/**: I2C - standardní dvouvodičová komunikace používaná v mnoha dalších senzorech

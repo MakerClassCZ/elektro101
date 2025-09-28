@@ -20,11 +20,11 @@ NeoPixel matrix 4x4 připojte:
 
 ## Soubory
 - `code.py` - Základní postupné rozsvěcování LED s různými barvami
-- `code-demo.py` - Pokročilé vzory a animace (kříž, rohy, rámeček, diagonála, šachovnice, duha)
-- `code-interactive.py` - Interaktivní ovládání tlačítkem pro přepínání vzorů
-- `code-encoder.py` - Ovládání enkodérem pro plynulé změny jasu, barvy a vzorů
+- `extra-demo/` - Pokročilé vzory a animace (kříž, rohy, rámeček, diagonála, šachovnice, duha)
+- `extra-interactive/` - Interaktivní ovládání tlačítkem pro přepínání vzorů
+- `extra-encoder/` - Ovládání enkodérem pro plynulé změny jasu, barvy a vzorů
 
 ## Vylepšení
-1. **code-demo.py**: Pokročilé vzory a animace včetně duhového cyklu a breathing efektu
-2. **code-interactive.py**: Interaktivní ovládání tlačítkem s cyklickým přepínáním vzorů
-3. **code-encoder.py**: Kompletní ovládání enkodérem s HSV barevným prostorem a různými módy
+1. **extra-demo/**: Pokročilé vzory a animace včetně duhového cyklu a breathing efektu
+2. **extra-interactive/**: Interaktivní ovládání tlačítkem s cyklickým přepínáním vzorů
+3. **extra-encoder/**: Kompletní ovládání enkodérem s HSV barevným prostorem a různými módy

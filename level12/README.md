@@ -24,10 +24,10 @@ Na I2C sběrnici připojíme dva moduly:
 
 ## Soubory
 - `code.py` - Zobrazení teploty a vlhkosti na OLED displeji
-- `scan.py` - I2C scanner pro detekci připojených zařízení
+- `extra-i2c_scan/` - I2C scanner pro detekci připojených zařízení
 
 ## Pomůcky
-**scan.py**: I2C scanner, který:
+**extra-i2c_scan/**: I2C scanner, který:
 - Projde všechny možné I2C adresy (0x08-0x77)
 - Detekuje připojená zařízení
 - Rozpozná známé senzory podle jejich adres

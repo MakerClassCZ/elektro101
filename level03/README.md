@@ -20,9 +20,9 @@ Rozšiřujeme zapojení z Level 2 - ponecháváme obě LED a přidáváme tlač�
 
 ## Soubory
 - `code.py` - Základní verze s manuálním čtením tlačítka
-- `code-lepsi.py` - Vylepšená verze s knihovnou `keypad` a neblokujícím časováním
-- `code-async.py` - Pokročilá verze s asyncio pro paralelní zpracování úkolů
+- `extra-keypad/` - Vylepšená verze s knihovnou `keypad` a neblokujícím časováním
+- `extra-async/` - Pokročilá verze s asyncio pro paralelní zpracování úkolů
 
 ## Vylepšení
-1. **code-lepsi.py**: Používá knihovnu `keypad` pro automatický debouncing a event-driven programování
-2. **code-async.py**: Asynchronní programování s `asyncio` pro skutečně paralelní běh blikání a čtení tlačítka
+1. **extra-keypad/**: Používá knihovnu `keypad` pro automatický debouncing a event-driven programování
+2. **extra-async/**: Asynchronní programování s `asyncio` pro skutečně paralelní běh blikání a čtení tlačítka

@@ -26,9 +26,9 @@ import time            # funkce pro čekání a práci s časem
 import adafruit_dht    # knihovna pro DHT11/DHT22 senzory
 
 # vytvoření DHT objektu na GP21
-# Zkuste nejdříve DHT22, pokud nefunguje, změňte na DHT11
-dht = adafruit_dht.DHT22(board.GP21)
-# dht = adafruit_dht.DHT11(board.GP21)  # použijte pro DHT11
+# Zkuste nejdříve DHT11, pokud nefunguje, změňte na DHT22
+# dht = adafruit_dht.DHT22(board.GP21)
+dht = adafruit_dht.DHT11(board.GP21)  # použijte pro DHT11
 
 print("🌡️💧 DHT11/DHT22 SENZOR")
 print("Teplota a vlhkost každých 5 sekund:")

@@ -31,7 +31,7 @@ import time         # funkce pro čekání a práci s časem
 
 # konfigurace hardware
 NEOPIXEL_PIN = board.GP18
-BUTTON_PIN = board.GP02
+BUTTON_PIN = board.GP2
 NUM_PIXELS = 16
 BRIGHTNESS = 0.2
 
